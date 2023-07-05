@@ -2,7 +2,8 @@
 
 The [Etch-A-Sketch project](https://www.theodinproject.com/lessons/foundations-etch-a-sketch) for TOP, redone.
 
-```
+- - - -
+
 Create a webpage with a 16x16 grid of square divs.
 * Create the divs using JavaScript. Don’t try making them by hand with copy and pasting in your HTML file!
 * It’s best to put your grid squares inside another “container” div (which can go directly in your HTML).
@@ -34,4 +35,4 @@ Transform the behavior of a square when interacting with the mouse by introducin
 * Rather than a simple color change from black to white, each interaction should randomize the square’s RGB value entirely.
 * Additionally, implement a progressive darkening effect where each interaction adds 10% more black or color to the square. The objective is to achieve a completely black square only after ten interactions.
 
-You can choose to do either one or both of these challenges, it’s up to you.```
+You can choose to do either one or both of these challenges, it’s up to you.
