@@ -17,13 +17,3 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
-.square {
-  background: pink;
-}
-
-/**
-  16 squares
-  16 / 2 = 4
-  4 squares across & down
-  100 / 4 = 25
