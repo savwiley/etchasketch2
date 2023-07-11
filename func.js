@@ -8,5 +8,8 @@ for (let i = 0; i < (numb * numb); i++) {
   square.setAttribute('class', 'square');
   square.style.width = `${100 / numb}%`;
   square.style.height = `auto`;
+  square.addEventListener('mouseenter', (e) => {
+    e.target.style.background = "#000";
+  })
   container.appendChild(square);
 }
