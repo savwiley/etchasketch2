@@ -10,7 +10,7 @@ body {
 #container {
   width: 550px;
   height: 550px;
-  margin: auto;
+  margin: 10px auto 0;
   border: 10px solid #333;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   display: flex;
