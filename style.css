@@ -7,10 +7,22 @@ body {
   background: #f7f7f7;
 }
 
+#main {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  height: auto;
+  margin: 10px auto 0;
+}
+
+#menu {
+  width: 250px;
+  height: 570px;
+}
+
 #container {
   width: 550px;
   height: 550px;
-  margin: 10px auto 0;
   border: 10px solid #333;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
   display: flex;
