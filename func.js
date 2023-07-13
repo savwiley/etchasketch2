@@ -10,7 +10,7 @@ const menu = document.querySelector("#menu");
 
 /* change numb */
 const numberChange = document.createElement('div');
-numberChange.setAttribute('class', 'changer');
+numberChange.setAttribute('class', 'numberChange');
 
 const numbInput = document.createElement('input');
 numbInput.setAttribute('type', 'number');
@@ -33,6 +33,7 @@ numberChange.appendChild(numbButton);
 /* change color */
 
 const colorChange = document.createElement('div');
+colorChange.setAttribute('class', 'colorChange');
 
 const colorPicker = document.createElement('input');
 colorPicker.setAttribute('type', 'color');
@@ -46,10 +47,7 @@ colorChange.appendChild(colorPicker);
 /* make grid */
 
 const squareEvents = (square) => {
-  square.addEventListener('dragover', (e) => {
-    e.target.style.background = color;
-  });
-  square.addEventListener('click', (e) => {
+  square.addEventListener('mouseover', (e) => {
     e.target.style.background = color;
   });
 };
