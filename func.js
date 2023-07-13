@@ -31,7 +31,6 @@ numberChange.appendChild(numbInput);
 numberChange.appendChild(numbButton);
 
 /* change color */
-
 const colorChange = document.createElement('div');
 colorChange.setAttribute('class', 'colorChange');
 
@@ -45,7 +44,6 @@ menu.appendChild(colorChange);
 colorChange.appendChild(colorPicker);
 
 /* make grid */
-
 const squareEvents = (square) => {
   square.addEventListener('mouseover', (e) => {
     e.target.style.background = color;
